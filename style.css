@@ -1,0 +1,41 @@
+.container {
+    width: 500px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+input, select {
+    border:none;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    outline: none;
+}
+
+input:disabled {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+
+input:not(:disabled) {
+    border-bottom: 1px solid gray;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: white;
+    background: black;
+    cursor: pointer;
+    margin-top: 20px;
+    outline: none;
+    box-shadow: 0 15px 40px -6px rgba(0,0,0,.5);
+}
